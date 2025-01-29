@@ -57,7 +57,7 @@
                     <li class="{{ request()->routeIs('students.index') || request()->routeIs('students.create') ? 'active' : '' }}">
                         <a href="#!" class="" style="align-items: center;">
                             <i class="bi bi-person-fill"></i>
-                            <span style="margin-left: 5px;">Pre Application</span>
+                            <span style="margin-left: 5px;">Patients</span>
                         </a>
                         <ul class="navbar-dropdown">
                             <li>
@@ -71,34 +71,11 @@
                     <li class="{{ request()->routeIs('precas.index') ? 'active' : '' }}">
                         <a href="#!" class="" style="align-items: center;">
                         <i class="bi bi-journal-richtext"></i>
-                            <span style="margin-left: 5px;">Pre CAS Application</span>
+                            <span style="margin-left: 5px;">Schedular</span>
                         </a>
                         <ul class="navbar-dropdown">
                             <li>
                                 <a href="{{ route('precas.index') }}" class="{{ request()->routeIs('precas.index') ? 'active' : '' }}">Application List</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="{{ request()->routeIs('postcas.index') ? 'active' : '' }}">
-                        <a href="#!" class="" style="align-items: center;">
-                            <i class="bi bi-journal-richtext"></i>
-
-                            <span style="margin-left: 5px;">Post CAS Application</span>
-                        </a>
-                        <ul class="navbar-dropdown">
-                            <li>
-                                <a href="{{ route('postcas.index') }}" class="{{ request()->routeIs('postcas.index') ? 'active' : '' }}">Application List</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="{{ request()->routeIs('recruitments.index') ? 'active' : '' }}">
-                        <a href="#!" class="" style="align-items: center;">
-                            <i class="bi bi-person-fill"></i>
-                            <span style="margin-left: 5px;">Recruitment Agent</span>
-                        </a>
-                        <ul class="navbar-dropdown">
-                            <li>
-                                <a href="{{ route('recruitments.index') }}" class="{{ request()->routeIs('recruitments.index') ? 'active' : '' }}">Agent List</a>
                             </li>
                         </ul>
                     </li>
@@ -113,6 +90,18 @@
                             </li>
                             <li>
                                 <a href="{{ route('task.index') }}" class="{{ request()->routeIs('task.index') ? 'active' : '' }}">Create Tasks</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="{{ request()->routeIs('postcas.index') ? 'active' : '' }}">
+                        <a href="#!" class="" style="align-items: center;">
+                            <i class="bi bi-journal-richtext"></i>
+
+                            <span style="margin-left: 5px;">Billing</span>
+                        </a>
+                        <ul class="navbar-dropdown">
+                            <li>
+                                <a href="{{ route('postcas.index') }}" class="{{ request()->routeIs('postcas.index') ? 'active' : '' }}">Application List</a>
                             </li>
                         </ul>
                     </li>
@@ -144,6 +133,17 @@
                         <ul class="navbar-dropdown">
                             <li>
                                 <a href="#!">Student Report</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="{{ request()->routeIs('recruitments.index') ? 'active' : '' }}">
+                        <a href="#!" class="" style="align-items: center;">
+                            <i class="bi bi-person-fill"></i>
+                            <span style="margin-left: 5px;">Inventory</span>
+                        </a>
+                        <ul class="navbar-dropdown">
+                            <li>
+                                <a href="{{ route('recruitments.index') }}" class="{{ request()->routeIs('recruitments.index') ? 'active' : '' }}">Agent List</a>
                             </li>
                         </ul>
                     </li>
