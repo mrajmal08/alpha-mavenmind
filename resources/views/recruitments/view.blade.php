@@ -12,7 +12,7 @@
                     <breadcrumb>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a role="button">Student</a>
+                                <a role="button">Patient</a>
                             </li>
                             <li class="breadcrumb-item">
                                 <a role="button">View</a>
@@ -23,7 +23,7 @@
                     </breadcrumb>
                 </div>
                 <div class="my-3 ms-3 ">
-                    <h4 class="student-detail">Student Name (23 year | 08/26/2000 | Male)</h4>
+                    <h4 class="student-detail">Patient Name (23 year | 08/26/2000 | Male)</h4>
                 </div>
                 <div class="container-fluid datatable">
                     <table class="table table-borderless table-striped">
@@ -66,7 +66,7 @@
                 <div class="container-fluid">
                     <div class="panel">
                         <form method="GET" action="{{ route('students.index') }}">
-                            <strong class="sub-title">Search Student</strong>
+                            <strong class="sub-title">Search Patient</strong>
                             <div class="datatable my-4 table-responsive">
                                 <table id="example" class="table table-bordered">
                                     <thead class="text-center">
@@ -128,7 +128,7 @@
 
         swal({
 
-                title: `Are you sure you want to delete this Student?`,
+                title: `Are you sure you want to delete this Patient?`,
                 icon: "warning",
                 buttons: true,
                 dangerMode: true,

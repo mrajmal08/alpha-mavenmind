@@ -48,7 +48,7 @@
 
                                     <div class="form-row ">
                                         <div class="form-group col-md-4 me-2">
-                                            <label class="label">Does the student require a Pre Cas compliance interview:<span class="star-color">*</span></label>
+                                            <label class="label">Does the patient require a Pre Cas compliance interview:<span class="star-color">*</span></label>
                                             <div class="radio-btn">
                                                 <input type="radio" id="yes" name="check" value="yes" onclick="toggleFields(true)">
                                                 <label class="label" for="yes">Yes</label>
@@ -107,7 +107,7 @@
 
                                     <div class="form-group">
                                         <div class="form-group col-md-4 me-2">
-                                            <label class="label">Has The Student Been Notified:<span class="star-color">*</span></label>
+                                            <label class="label">Has The Patient Been Notified:<span class="star-color">*</span></label>
                                             <div class="radio-btn" id="radioBtn">
                                                 <input type="radio" id="notified_yes" name="student_notified" value="yes">
                                                 <label class="label" for="notified_yes">Yes</label>

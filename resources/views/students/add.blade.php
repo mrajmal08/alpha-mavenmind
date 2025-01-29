@@ -13,7 +13,7 @@
                     <breadcrumb>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a role="button">Student</a>
+                                <a role="button">Patient</a>
                             </li>
                             <li class="breadcrumb-item">
                                 <span>Add</span>
@@ -24,7 +24,7 @@
                 <div class="user">
                     <div class="container">
                         <div class="user-header">
-                            <h4 class="user-role py-3">Add Student</h4>
+                            <h4 class="user-role py-3">Add Patient</h4>
                             <a href="{{ route('students.index') }}" class="close-btn">x</a>
                         </div>
                         <div class="search-user">
@@ -37,11 +37,11 @@
 
                                     <div class="form-row mt-3">
                                         <div class="form-group">
-                                            <label class="label" for="name">Student Name<span class="star-color">*</span></label>
+                                            <label class="label" for="name">Patient Name<span class="star-color">*</span></label>
                                             <input type="text" id="name" class="form-control" name="name">
                                         </div>
                                         <div class="form-group">
-                                            <label class="label" for="email">Student Email Address<span class="star-color">*</span></label>
+                                            <label class="label" for="email">Patient Email Address<span class="star-color">*</span></label>
                                             <input type="email" name="email" class="form-control" id="email">
                                         </div>
 

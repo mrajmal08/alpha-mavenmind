@@ -12,7 +12,7 @@
                     <breadcrumb>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a role="button">Student</a>
+                                <a role="button">Patient</a>
                             </li>
                             <li class="breadcrumb-item">
                                 <a role="button">View</a>
@@ -83,14 +83,14 @@
 
                 <div class="container-fluid">
                     <div class="panel student_view">
-                        <strong class="sub-title">Search Student</strong>
+                        <strong class="sub-title">Search Patient</strong>
                         <div class="datatable my-4 table-responsive">
 
                             <table id="example" class="table table-bordered">
                                 <thead class="text-center">
                                     <tr>
-                                        <th>Student Id</th>
-                                        <th>Student Name</th>
+                                        <th>Patient Id</th>
+                                        <th>Patient Name</th>
                                         <th>Course Applied For</th>
                                         <th>Intake</th>
                                         <th>Dependants</th>
@@ -345,7 +345,7 @@
 
         swal({
 
-                title: `Are you sure you want to delete this Student?`,
+                title: `Are you sure you want to delete this Patient?`,
                 icon: "warning",
                 buttons: true,
                 dangerMode: true,

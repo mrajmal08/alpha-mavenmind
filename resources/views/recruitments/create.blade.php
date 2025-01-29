@@ -114,7 +114,7 @@
 
                                     <div class="my-2">
                                         <h4 class="address">
-                                            How Many Students Recruited To Date:
+                                            How Many Patients Recruited To Date:
                                         </h4>
                                     </div>
                                     <div class="form-row">

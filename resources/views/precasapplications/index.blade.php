@@ -74,7 +74,7 @@
                                 <th>Name Of Interviewer</th>
                                 <th>Note</th>
                                 <th>Date Of Referral</th>
-                                <th>Student Notified</th>
+                                <th>Patient Notified</th>
                                 <th>Date Of Interview 2</th>
                                 <th>Name Of Interviewer</th>
                                 <th>Note 2</th>

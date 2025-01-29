@@ -12,7 +12,7 @@
                     <breadcrumb>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a role="button">Students</a>
+                                <a role="button">Patients</a>
                             </li>
                             <li class="breadcrumb-item">
                                 <span>Update</span>
@@ -23,7 +23,7 @@
                 <div class="user">
                     <div class="container">
                         <div class="user-header">
-                            <h4 class="user-role py-3">Update Student</h4>
+                            <h4 class="user-role py-3">Update Patient</h4>
                             <a href="{{ route('recruitments.index') }}" class="close-btn">x</a>
                         </div>
                         <div class="search-user">

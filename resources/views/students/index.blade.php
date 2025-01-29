@@ -13,7 +13,7 @@
                     <breadcrumb>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a role="button">Student</a>
+                                <a role="button">Patient</a>
                             </li>
                             <li class="breadcrumb-item">
                                 <a role="button">list</a>
@@ -29,25 +29,25 @@
                             <span class="icon-plus">
                                 +
                             </span>
-                            Add Student </a>
+                            Add Patient </a>
                     </div>
                 </div>
                 <div class="container-fluid">
                     <div class="panel">
                         <form method="GET" action="{{ route('students.index') }}">
-                            <strong class="sub-title">Search Student</strong>
+                            <strong class="sub-title">Search Patient</strong>
                             <div class="collapse-div mb-3">
                                 <div class="row extra-padding">
                                     <div class="col-md-3 col-sm-6 filter-item">
-                                        <label class="label">Student ID</label>
+                                        <label class="label">Patient ID</label>
                                         <input type="text" name="id" class="form-control" placeholder="">
                                     </div>
                                     <div class="col-md-3 col-sm-6 filter-item">
-                                        <label class="label">Student Name</label>
+                                        <label class="label">Patient Name</label>
                                         <input type="text" name="name" class="form-control" placeholder="">
                                     </div>
                                     <div class="col-md-3 col-sm-6 filter-item">
-                                        <label class="label">Student Email Address</label>
+                                        <label class="label">Patient Email Address</label>
                                         <input type="text" name="email" class="form-control" placeholder="">
                                     </div>
                                     <div class="col-md-3 col-sm-6 filter-item">
@@ -93,9 +93,9 @@
                     <table id="example" class="table table-bordered">
                         <thead class="text-center">
                             <tr>
-                                <th>Student ID</th>
-                                <th>Student Name</th>
-                                <th>Student Email Address</th>
+                                <th>Patient ID</th>
+                                <th>Patient Name</th>
+                                <th>Patient Email Address</th>
                                 <th>Preferred Contact Details</th>
                                 <th>Status</th>
                                 <th>Created By</th>

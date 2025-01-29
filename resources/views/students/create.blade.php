@@ -22,7 +22,7 @@
                     <breadcrumb>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a role="button">Students</a>
+                                <a role="button">Patients</a>
                             </li>
                             <li class="breadcrumb-item">
                                 <a>Edit</a>
@@ -33,7 +33,7 @@
                         </ul>
                     </breadcrumb>
                     <div class="float-right">
-                        Student Name: <a href="{{ route('students.view', [$student->id]) }}" style="color: #2fa953;">{{ $student->name }}</a>
+                    Patient Name: <a href="{{ route('students.view', [$student->id]) }}" style="color: #2fa953;">{{ $student->name }}</a>
                     </div>
                 </div>
 
@@ -76,7 +76,7 @@
                             <button class="nav-link active" id="pills-case-tab" data-bs-toggle="pill" data-bs-target="#pills-case" type="button" role="tab" aria-controls="pills-case" aria-selected="true">Case</button>
                         </li>
                         <li class="nav-item pr-3" role="presentation">
-                            <button class="nav-link" id="pills-studentInfo-tab" data-bs-toggle="pill" data-bs-target="#pills-studentInfo" type="button" role="tab" aria-controls="pills-studentInfo" aria-selected="false">Student Info</button>
+                            <button class="nav-link" id="pills-studentInfo-tab" data-bs-toggle="pill" data-bs-target="#pills-studentInfo" type="button" role="tab" aria-controls="pills-studentInfo" aria-selected="false">Patient Info</button>
                         </li>
                         <li class="nav-item pr-3" role="presentation">
                             <button class="nav-link" id="pills-dependant-tab" data-bs-toggle="pill" data-bs-target="#pills-dependant" type="button" role="tab" aria-controls="pills-dependant" aria-selected="false">Dependants</button>
@@ -166,13 +166,13 @@
                             </div>
                         </div>
 
-                        <!-- Student Information -->
+                        <!-- Patient Information -->
                         <div class="tab-pane fade" id="pills-studentInfo" role="tabpanel" aria-labelledby="pills-studentInfo-tab" tabindex="0">
 
                             <div class="user pt-4">
                                 <div class="">
                                     <div class="user-header">
-                                        <h4 class="user-role py-3">Student</h4>
+                                        <h4 class="user-role py-3">Patient</h4>
                                         <a href="{{ route('students.index') }}" class="close-btn"></a>
                                     </div>
                                     <div class="search-user">
@@ -185,12 +185,12 @@
 
                                                 <div class="form-row mt-3">
                                                     <div class="form-group">
-                                                        <label class="label" for="name">Student Name<span class="star-color">*</span></label>
+                                                        <label class="label" for="name">Patient Name<span class="star-color">*</span></label>
                                                         <input type="text" id="student_name" class="form-control" name="name" value="{{ $student->name }}">
                                                         <input type="hidden" id="tab" class="form-control" name="tab" value="tab">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label class="label" for="email">Student Email Address<span class="star-color">*</span></label>
+                                                        <label class="label" for="email">Patient Email Address<span class="star-color">*</span></label>
                                                         <input type="email" name="email" class="form-control" id="email" value="{{ $student->email }}">
                                                     </div>
 
@@ -1257,7 +1257,7 @@
                                     <div class="container">
                                         <div class="user pt-4">
                                             <div class="user-header header-title">
-                                                <h4 class="py-3">Student</h4>
+                                                <h4 class="py-3">Patient</h4>
                                                 <a href="{{ route('students.index') }}" class="close-btn"></a>
                                             </div>
 
@@ -1269,11 +1269,11 @@
 
                                                     <div class="form-row mt-3">
                                                         <div class="form-group">
-                                                            <label class="label" for="name">Student Name<span class="star-color">*</span></label>
+                                                            <label class="label" for="name">Patient Name<span class="star-color">*</span></label>
                                                             <input type="text" class="form-control" name="name" value="{{ $student->name }}" disabled>
                                                         </div>
                                                         <div class="form-group">
-                                                            <label class="label" for="email">Student Email Address<span class="star-color">*</span></label>
+                                                            <label class="label" for="email">Patient Email Address<span class="star-color">*</span></label>
                                                             <input type="email" name="email" class="form-control" value="{{ $student->email }}" disabled>
                                                         </div>
 
@@ -1530,7 +1530,7 @@
                                                                 <div class="row extra-padding">
                                                                     <div class="form-row mt-3">
                                                                         <div class="form-group">
-                                                                            <label class="label" for="get_student">Student:</span></label>
+                                                                            <label class="label" for="get_student">Patient:</span></label>
                                                                             <input type="text" class="form-control" value="{{ $student->name }}" disabled>
                                                                         </div>
                                                                         <div class="form-group">

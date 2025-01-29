@@ -158,7 +158,7 @@
                                         </h4>
                                         <ul>
                                             <li>
-                                                How much maintenance is the student (including dependants) required to show
+                                                How much maintenance is the patient (including dependants) required to show
                                             </li>
                                             <li>
                                                 How many bank statements are being submitted

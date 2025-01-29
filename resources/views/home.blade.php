@@ -21,7 +21,7 @@
                                         <ul class="list-group">
                                             <li class="list-group-item">
                                                 <span class="badge bg-primary">25133</span>
-                                                <a href="#">Students</a>
+                                                <a href="#">Patients</a>
                                             </li>
                                             <li class="list-group-item">
                                                 <span class="badge bg-success">1840</span>
@@ -75,7 +75,7 @@
                                         <ul class="list-group">
                                             <li class="list-group-item">
                                                 <span class="badge bg-primary float-end">276</span>
-                                                <a href="#">No. of Students</a>
+                                                <a href="#">No. of Patients</a>
                                             </li>
                                             <li class="list-group-item">
                                                 <span class="badge bg-info float-end">20</span>

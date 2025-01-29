@@ -85,7 +85,7 @@
 
                                     <div class="form-row mt-3">
                                         <div class="form-group col-md-4">
-                                            <label class="label">Did The Student Enter After The Start Date Of The Vignette:<span class="star-color">*</span></label>
+                                            <label class="label">Did The Patient Enter After The Start Date Of The Vignette:<span class="star-color">*</span></label>
                                             <div class="radio-btn">
                                                 <input type="radio" id="yes" name="after_vignette" value="yes" {{ $postCas->after_vignette == "yes" ? 'checked' : '' }}>
                                                 <label class="label" for="yes">Yes</label>
@@ -96,7 +96,7 @@
                                     </div>
                                     <div class="form-row mt-3">
                                         <div class="form-group col-md-6">
-                                            <label class="label">Did The Student Enter Before The Start Date Of The Vignette:<span class="star-color">*</span></label>
+                                            <label class="label">Did The Patient Enter Before The Start Date Of The Vignette:<span class="star-color">*</span></label>
                                             <div class="radio-btn">
                                                 <input type="radio" id="before_vignette_yes" name="before_vignette" value="yes" {{ $postCas->before_vignette == "yes" ? 'checked' : '' }}>
                                                 <label class="label" for="yes">Yes ( <span style="color: red;">Refer case to head of Compliance</span> )</label>
@@ -107,7 +107,7 @@
                                     </div>
                                     <div class="form-row mt-4">
                                         <div class="form-group ">
-                                            <label class="label">Has The Student Been Notified:<span class="star-color">*</span></label>
+                                            <label class="label">Has The Patient Been Notified:<span class="star-color">*</span></label>
                                             <div class="radio-btn">
                                                 <input type="radio" id="student_notified_yes" name="student_notified" value="yes" {{ $postCas->student_notified == "yes" ? 'checked' : '' }}>
                                                 <label class="label" for="yes">Yes</label>
@@ -129,7 +129,7 @@
                                             <strong class="sub-title">E-Ticket Documents</strong>
                                             <div class="form-row mt-3">
                                                 <div class="form-group col-md-4">
-                                                    <label class="label">Did The Student Enter Via E-Gates:<span class="star-color">*</span></label>
+                                                    <label class="label">Did The Patient Enter Via E-Gates:<span class="star-color">*</span></label>
                                                     <div class="radio-btn">
                                                         <input type="radio" id="yes" name="is_egates" value="yes" {{ $postCas->is_egates == "yes" ? 'checked' : '' }}>
                                                         <label class="label" for="yes">Yes</label>

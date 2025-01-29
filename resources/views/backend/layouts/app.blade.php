@@ -61,10 +61,10 @@
                         </a>
                         <ul class="navbar-dropdown">
                             <li>
-                                <a href="{{ route('students.index') }}" class="{{ request()->routeIs('students.index') ? 'active' : '' }}">Student List</a>
+                                <a href="{{ route('students.index') }}" class="{{ request()->routeIs('students.index') ? 'active' : '' }}">Patient List</a>
                             </li>
                             <li>
-                                <a href="{{ route('students.add') }}" class="{{ request()->routeIs('students.add') ? 'active' : '' }}">Add New Student</a>
+                                <a href="{{ route('students.add') }}" class="{{ request()->routeIs('students.add') ? 'active' : '' }}">Add New Patient</a>
                             </li>
                         </ul>
                     </li>
